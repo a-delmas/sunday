@@ -14,14 +14,17 @@ color:lightgray;
 color:black;
  }
 
-img{
-    width:100%;
-    #hr {
-        transform: rotate(135deg); 
-   }
-   
-}
  .body-card{
-    padding: 1rem;
+    margin: 1rem;
 }
 
+.sold {
+    opacity: .5;
+    background: 
+        linear-gradient(to top left,
+            rgba(0,0,0,0) 0%,
+            rgba(0,0,0,0) calc(50% - 0.8px),
+            rgba(0,0,0,1) 50%,
+            rgba(0,0,0,0) calc(50% + 0.8px),
+            rgba(0,0,0,0) 100%);
+    }
