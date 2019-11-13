@@ -1,0 +1,27 @@
+@mixin whole-card {
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+
+@mixin card-title ($color){
+    color:$color;
+}
+ @mixin card-subtitle{
+color:lightgray;
+ }
+ @mixin card-text{
+color:black;
+ }
+
+img{
+    width:100%;
+    #hr {
+        transform: rotate(135deg); 
+   }
+   
+}
+ .body-card{
+    padding: 1rem;
+}
+

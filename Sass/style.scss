@@ -1,5 +1,24 @@
 @import "header";
+@import "main";
+@import "card";
+@import "footer";
 
-.container {
+body {
     font-family: 'Times New Roman', Times, serif;
+}
+.buy{
+    
+    @include card-title (#a28f61);
+}
+
+.on-sale{
+    @include card-title (#ffd200);
+}
+
+.sold-out{
+    @include card-title (#8d9198)
+}
+
+.whole-card{
+    @include whole-card;
 }

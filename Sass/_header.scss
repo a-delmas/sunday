@@ -3,10 +3,26 @@ header {
     width: 100%;
     height: 100vh;
     color: white;
+    padding:0;
+
     nav {
-        text-align: center;
-        margin-left: 25rem;
         font-size: 1.5rem;
+        button{
+            i{
+                color:white;
+            }
+        }
+        ul{
+            width:100%;
+            margin-left: 47rem;
+        }   
+    
+        i.fas.fa-search{
+            position: absolute;
+            right:3rem;
+            top: 1rem;
+            color: white;
+        }
     }
     #tittle {
         padding-top: 10rem;
@@ -15,7 +31,7 @@ header {
     .head {
         text-align: center;
     }
-    .btn {
+    .btn { 
         background-color: #a28f61;
         color: white;
         margin-top: 1rem;
@@ -23,10 +39,15 @@ header {
         font-size: 1rem;
         padding: .5rem 2rem;
     }
-    .fa-chevron-down {
-        font-size: 2rem;
-        position: absolute;
-        right: 3rem;
-        bottom: 1rem;
+    a{
+        text-decoration: none;
+        
+            .fa-chevron-down {
+                font-size: 2rem;
+                position: absolute;
+                right: 3rem;
+                bottom: 1rem;
+                color: white;
+        }
     }
 }
