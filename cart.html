@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="prods">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg m-0">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <h1 id="tittle">SUNDAYS</h1>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Catalog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Stores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Blog</a>
+                                </li>
+                            </ul>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </nav>
+                    
+                </div>
+            </div>
+            <a href="#spring"><i class="fas fa-chevron-down"></i></a>
+        </div>
+        <main>
+                <div class="row no-gutters">
+                        <div class="col-12">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb m-0 pr-0">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Catalog</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Product Sheet</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <div class="row history w-100">
+                            <div class="col-12 mb-4 mt-4 table-responsive pr-0">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="d-none d-md-inline-block">#</th>
+                                            <th scope="col">Product Name</th>
+                                            <th scope="col" class="d-none d-md-inline-block">Description</th>
+                                            <th scope="col">Quantity</th>
+                                            <th scope="col">Unit Price</th>
+                                            <th scope="col" class="d-none d-md-inline-block">Total Price</th>
+                                            <th scope="col">Delete</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="basket">
+                                        <tr>
+                                            <th scope="row" class="d-none d-md-">1</th>
+                                            <td class="name">Mark</td>
+                                            <td class="d-none d-md-block">Otto</td>
+                                            <td><input type="number" value="0" min="0" max="1000" step="1" />
+                                            </td>
+                                            <td class="d-none d-md-block">00.00</td>
+                                            <td>00.00</td>
+                                            <td><i class="far fa-trash-alt"></i></td>
+                                        </tr> -->
+                                        <tr>
+                                            <th scope="row" class="d-none d-md-block">2</th>
+                                            <td>Jacob</td>
+                                            <td class="d-none d-md-block">Thornton</td>
+                                            <td><input type="number" value="0" min="0" max="1000" step="1" />
+                                            </td>
+                                            <td class="d-none d-md-block">00.00</td>
+                                            <td>00.00</td>
+                                            <td><i class="far fa-trash-alt"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="d-none d-md-block">3</th>
+                                            <td>Larry</td>
+                                            <td class="d-none d-md-block">the Bird</td>
+                                            <td><input type="number" value="0" min="0" max="1000" step="1" />
+                                            </td>
+                                            <td class="d-none d-md-block">00.00</td>
+                                            <td>00.00</td>
+                                            <td><i class="far fa-trash-alt"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-12 mb-4 mt-4 ">
+                                <table class="table ">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row" class="text-right">Total H.T.</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center prixHT"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="text-right">Dont T.V.A.</th>
+                                            <td></td>
+                                            <td>20%</td>
+                                            <td class="text-center tva"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="text-right">Total TTC</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="text-center grandTotal"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+            </main>
+            <footer>
+                <div class="row" id="footer">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3>Quick links</h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li><i class="fab fa-twitter"></i>@californiatheme</li>
+                            <li><i class="fas fa-envelope"></i>support@smallvictories.co</li>
+                            <li><i class="fas fa-phone-alt"></i>+1 917(123) 4567</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3>Newsletter</h3>
+                        <div class="input-group">
+                            <input type="text" placeholder="Your email ...">
+                            <div class="input-group2">
+                                <button class="btn btn-outline-secondary" type="button"> OK </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li><i class="fab fa-pinterest-square"></i>Pinterest</li>
+                            <li><i class="fab fa-instagram"></i>Instagram</li>
+                            <li><i class="fab fa-vimeo"></i>Vimeo</li>
+                        </ul>
+                    </div>
+        
+                </div>
+            </footer>
+            </div>
+        
+        
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+            <script src="js/script.js"></script>
+        </body>
+        
+        </html>

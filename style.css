@@ -72,6 +72,36 @@ ul {
   .input-group .btn-outline-secondary {
     margin-left: .5rem; }
 
+.prods {
+  background-color: #281400;
+  width: 100%;
+  color: white;
+  padding: 0; }
+
+nav {
+  font-size: 1.5rem; }
+  nav button i {
+    color: white; }
+
+ul {
+  width: 100%;
+  margin-left: 47rem; }
+
+i.fas.fa-search {
+  position: absolute;
+  right: 3rem;
+  top: 1rem;
+  color: white; }
+
+a {
+  text-decoration: none; }
+  a .fa-chevron-down {
+    font-size: 2rem;
+    position: absolute;
+    right: 3rem;
+    top: 6rem;
+    color: white; }
+
 body {
   font-family: 'Times New Roman', Times, serif; }
 
